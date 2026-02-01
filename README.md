@@ -16,3 +16,6 @@ program execution and output
         printf("\n Welcome to C learning");
         return 0;
     }
+# Python recap
+To print a welcome message by using a python program .
+By this way, we recap the Python program also.
