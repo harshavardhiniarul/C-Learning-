@@ -1,0 +1,11 @@
+count = 0
+number = 1
+#//To print the first five odd numbers
+
+print("The first 5 odd numbers are:")
+while count < 5:
+
+    if number % 2 != 0:
+        print(number)
+        count += 1 
+    number += 1     
