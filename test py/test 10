@@ -1,0 +1,5 @@
+marks = [85, 90, 75, 92, 88]
+total_marks = sum(marks)
+number_of_marks = len(marks)
+average_marks = total_marks / number_of_marks
+print(f"The average marks are: {average_marks}")
