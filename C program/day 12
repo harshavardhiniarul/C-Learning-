@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+    int roll;
+    int m1, m2, m3;
+    int total;
+    float average;
+
+    scanf("%d", &roll);
+    scanf("%d %d %d", &m1, &m2, &m3);
+
+    total = m1 + m2 + m3;
+    average = total / 3.0;
+
+    printf("Roll Number: %d\n", roll);
+    printf("Total Marks: %d\n", total);
+    printf("Average Marks: %.2f\n", average);
+    return 0;
+}
