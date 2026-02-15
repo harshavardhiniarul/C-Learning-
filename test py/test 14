@@ -1,5 +1,11 @@
-import math
+# Define PI as a constant
+PI = 3.14
 
+# Get input from the user and convert to float
 r = float(input("Enter the radius of the circle: "))
-area = math.pi * r * r
-print("Area of the circle is: %.2f" % area)
+
+# Calculate the area
+area = PI * r * r
+
+# Print the area formatted to 2 decimal places
+print("Area of the circle is: {:.2f}".format(area))
