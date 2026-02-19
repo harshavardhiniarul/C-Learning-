@@ -1,0 +1,12 @@
+# The input function reads a string. We use int() to convert it to an integer.
+marks = int(input("Enter marks: "))
+
+# Use an if/elif/else chain to check conditions sequentially
+if marks >= 90:
+    print("Grade: A")
+elif marks >= 75:
+    print("Grade: B")
+elif marks >= 50:
+    print("Grade: C")
+else:
+    print("Grade: F")
